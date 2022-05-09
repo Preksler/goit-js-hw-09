@@ -16,3 +16,33 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.field {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
+.value {
+  background-color: #212121;
+  box-shadow: 0 0 10px #333333;
+  color: #fafafa;
+  margin: 0 10px;
+  padding: 5px;
+  font-size: 35px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.label {
+  color: #212121;
+  background-color: #fafafa;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
